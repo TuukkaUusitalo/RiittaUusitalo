@@ -1,0 +1,423 @@
+body {
+	margin:  0px;
+}
+
+.navi {
+	margin: 0px;
+	background-color: rgb(223, 201, 151);
+	display: block;
+	width: 100%;
+	height: 60px;
+	top: 0px;
+	padding: 0px;
+}
+
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: none;
+	display: block;
+	height: 38px;
+	padding: 12px;
+	font-size: 25px;
+	text-align: center;
+	top:  50%;	
+}
+
+
+li a:hover {
+	background-color: beige;
+}
+
+
+.img-Riitta {
+	width: 400px;
+	height: 600px;
+	background-image: url(./Pics/Riitta6.jpeg);
+	background-size: 100%;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: 20fr 10fr;
+	grid-gap: 0px;
+	color: floralwhite;
+	padding-top: 80px;
+}
+
+.text-style {
+	width: 1000px;
+	text-align: center;
+}
+
+.detail-style {
+	color: black; border: 10px;
+	margin: 80px;
+	text-align: left;
+}
+
+.LinearGradient1 {
+    height: 150px;
+    background-image: linear-gradient(#f9f9f9, #2b2a2a);
+    margin: 0px;
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+
+/*Tekstien koon määrittely*/
+
+.p0 {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+.p1 {
+	font-size: 25px;
+    color: white;
+    text-align: left;
+    margin-left: 100px;
+	margin-top: 70px;
+}
+
+.p2 {
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	font-size: 20px;
+    color: white;
+    text-align: justify;
+}
+
+.p3 {
+	font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+
+/*Spiralistabilaatio*/
+
+.Teemakuva {
+	background-size: 100%;
+	background-color: #2b2a2a;
+}
+
+.parent {
+	display: grid;
+    float: center;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 100px;
+    padding-top: 50px;
+    padding-bottom: 550px;
+}
+
+.item4 {
+    background-color: floralwhite;
+    background-size: 100%;
+	background-position: center;
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    padding: 50px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+.item4:hover {
+	background-color: rgb(199, 199, 199);
+}
+
+
+.item5 {
+    background-color: floralwhite;
+    background-size: 100%;
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    padding: 50px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+.item5:hover {
+	background-color: rgb(199, 199, 199);
+}
+
+
+.item6 {
+    background-color: floralwhite;
+    background-size: 100%;
+    width: 200px;
+    height: 250px;
+    margin: 30px;
+    padding: 50px;
+    color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+.item6:hover {
+	background-color: rgb(199, 199, 199);
+}
+
+
+/*Hieronta*/
+.Taustoja-vaaka {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	margin-top: 70px;
+}
+
+
+
+/*Ohjatutu aktiviteetit*/
+.LagoJardin-kuva {
+	background-image: url(./Pics/LagoJardin.jpeg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 100px;
+	padding: 0px;
+	height: 420px;
+}
+
+
+.Training-kuva {
+	background-image: url(./Pics/training.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 100px;
+	padding: 0px;
+	height: 420px;
+}
+
+.Lenkki-kuva {
+	background-image: url(./Pics/lenkki1.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	margin: 100px;
+	padding: 0px;
+	height: 420px;
+}
+
+
+
+
+
+@media (max-width:450px) {
+
+    .navi {
+        margin: 0px;
+		background-color: rgb(223, 201, 151);
+		display: block;
+		width: 100%;
+		height: 45px;
+		top: 0px;
+		padding: 0px;
+    }
+
+    a {
+		color: black;
+		font-weight: bold;
+		text-decoration: none;
+		display: block;
+		height: 20px;
+		padding: 12px;
+		font-size:15px;
+		text-align: center;
+		top:  50%;	
+	}
+
+	.grid-container {
+		display: flex;
+		flex-direction: column;
+		grid-template-columns: 20fr 10fr;
+		grid-gap: 0px;
+		color: floralwhite;
+		padding: 0px;
+		margin: 0px;
+	}
+
+	.grid-child {
+		margin: 0px;
+		border: 0px;
+		padding: 0px;
+	}
+
+	.img-Riitta {
+		width: 200px;
+		height: 280px;
+		background-image: url(./Pics/Riitta6.jpeg);
+		background-size: 100%;
+		margin-left: 75px;
+		padding: 0px;
+	}
+
+	.image-text {
+		margin-left: 75px;
+		padding: 0px;
+	}
+
+	.text-style {
+		width: 350px;
+		text-align: center;
+		padding: 0px;
+		margin: 0px;
+	}
+	
+	.detail-style {
+		color: black;
+		text-align: justify;
+		margin-left: 15px;
+		margin-right: 15px;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		border: 0px;
+		padding: 0px;
+	}
+
+
+    /*tekstien koko*/	
+
+    .p0 {
+		font-size: 20px;
+		color: white;
+		margin-left: 5px;
+		margin-right: 5px;
+		margin-top: 5px;
+		padding: 0px;
+	}
+
+    .p1 {
+		font-size: 20px;
+		color: white;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+		padding: 0px;
+	}
+
+    .p2 {
+		color: white;
+		margin-left: 20px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 40px;
+		font-size: 11px;
+		padding: 0px;
+		text-align: justify;
+	}
+
+	.p3 {
+		font-size: 10px;
+		color: white;
+		text-align: center;
+		margin-left: 10px;
+		margin-right: 10px;
+		margin-top: 10px;
+		margin-bottom: 30px;
+		padding: 0px;
+	}
+
+
+    /*Luennot ja palvelut -osio*/	
+    
+    .Teemakuva {
+        background-size: 100%;
+        background-attachment: fixed;
+		background-color: #2b2a2a
+    }
+
+    .parent {
+        display: flex;
+        flex-direction: column;
+        padding-top: 5px;
+        padding-left: 80px;
+        padding-right: 80px;
+        border: 0px;
+        margin: 0px;
+    }
+
+    .item4 {
+        background-color: floralwhite;
+        background-size: 100%;
+        width: 120px;
+        height: 150px;
+        margin-bottom: 80px;
+        padding: 0px;
+        color: #000000;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .item5 {
+        background-color: lightgrey;
+        background-size: 100%;
+        width: 120px;
+        height: 150px;
+        margin-bottom: 80px;
+        padding: 0px;
+        color: #000000;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .item6 {
+        background-color: floralwhite;
+        background-size: 100%;
+        width: 120px;
+        height: 150px;
+        margin-bottom: 80px;
+        padding: 0px;
+        color: #000000;
+        font-size: 15px;
+        text-align: center;
+    }
+
+
+    /*Hieronta*/	
+    .Taustoja-vaaka {
+		display: grid;
+		grid-template-columns: 1fr 1fr 1fr;
+		margin-top: 30px;
+	}
+
+     /*Vesijumppa ja lihaskunto*/	
+
+	.LagoJardin-kuva {
+		background-image: url(./Pics/LagoJardin.jpeg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 15px;
+		padding: 0px;
+		width: 60px;
+		height: 90px;
+		font-size: 10px;
+		object-fit: cover;
+	}
+
+	.Training-kuva {
+		background-image: url(./Pics/training.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 15px;
+		padding: 0px;
+		width: 60px;
+		height: 90px;
+		font-size: 10px;
+		object-fit: cover;
+	}
+
+	.Lenkki-kuva {
+		background-image: url(./Pics/lenkki2.jpg);
+		background-size: 100%;
+		background-repeat: no-repeat;
+		margin: 15px;
+		padding: 0px;
+		width: 60px;
+		height: 90px;
+		font-size: 10px;
+		object-fit: cover;
+	}
+}
