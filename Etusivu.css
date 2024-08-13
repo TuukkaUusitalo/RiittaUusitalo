@@ -174,7 +174,7 @@ li a:hover {
 
 /*Ohjatutu aktiviteetit*/
 .LagoJardin-kuva {
-	background-image: url(./Pics/LagoJardin.jpeg);
+	background-image: url(./LagoJardin.jpeg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 100px;
@@ -184,7 +184,7 @@ li a:hover {
 
 
 .Training-kuva {
-	background-image: url(./Pics/training.jpg);
+	background-image: url(./training.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 100px;
@@ -193,7 +193,7 @@ li a:hover {
 }
 
 .Lenkki-kuva {
-	background-image: url(./Pics/lenkki1.jpg);
+	background-image: url(./lenkki1.jpg);
 	background-size: 100%;
 	background-repeat: no-repeat;
 	margin: 100px;
@@ -248,7 +248,7 @@ li a:hover {
 	.img-Riitta {
 		width: 200px;
 		height: 280px;
-		background-image: url(./Pics/Riitta6.jpeg);
+		background-image: url(./Riitta6.jpeg);
 		background-size: 100%;
 		margin-left: 75px;
 		padding: 0px;
@@ -386,7 +386,7 @@ li a:hover {
      /*Vesijumppa ja lihaskunto*/	
 
 	.LagoJardin-kuva {
-		background-image: url(./Pics/LagoJardin.jpeg);
+		background-image: url(./LagoJardin.jpeg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin: 15px;
@@ -398,7 +398,7 @@ li a:hover {
 	}
 
 	.Training-kuva {
-		background-image: url(./Pics/training.jpg);
+		background-image: url(./training.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin: 15px;
@@ -410,7 +410,7 @@ li a:hover {
 	}
 
 	.Lenkki-kuva {
-		background-image: url(./Pics/lenkki2.jpg);
+		background-image: url(./lenkki2.jpg);
 		background-size: 100%;
 		background-repeat: no-repeat;
 		margin: 15px;

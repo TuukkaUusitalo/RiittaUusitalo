@@ -76,7 +76,7 @@ li a:hover {
 
 /*Esimmäinen blogiteksti*/
 .item4 {
-    background-image: url(./Pics/Nousu.jpeg);
+    background-image: url(./Nousu.jpeg);
     background-color: #000000;
     background-position: center;
     background-size: 100%;
@@ -106,7 +106,7 @@ li a:hover {
 
 /*Kolmas blogiteksti*/
 .item6 {
-    background-image: url(./Pics/sunset2.jpg);
+    background-image: url(./sunset2.jpg);
     background-color: #000000;
     background-position: center;
     background-size: 100%;
@@ -234,7 +234,7 @@ li a:hover {
 
     /*Kolmas blogiteksti*/
     .item6 {
-        background-image: url(Pics/sunset1.jpg);
+        background-image: url(./sunset1.jpg);
         background-color: floralwhite;
         background-size: 100%;
         background-repeat: no-repeat;
